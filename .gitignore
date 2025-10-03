@@ -1,4 +1,15 @@
-
+﻿# dbt
 target/
 dbt_packages/
 logs/
+
+# Credenciais / segurança
+*.json
+*.key
+.env
+
+# Sistema/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
