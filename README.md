@@ -1,15 +1,22 @@
-Welcome to your new dbt project!
+﻿# Analytics Engineering Portfolio
 
-### Using the starter project
+This repository is part of my international Data Analytics & Engineering portfolio.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Current status
+- Connected **dbt** with **BigQuery** using service accounts.
+- Created first model: stg_hello.
+- Successfully tested data pipeline (dbt run + dbt test).
 
+## Tech stack
+- dbt (core) + BigQuery
+- Python (venv, pip)
+- Git / GitHub
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Next steps
+- Add **sources** and **seeds**.
+- Organize models into **staging**, **intermediate**, and **marts** layers.
+- Expand data tests for reliability.
+
+---
+
+📌 *This repository is part of a 12-week international career project in Data Analytics & Engineering.*
